@@ -1,0 +1,127 @@
+@import 'antd/dist/antd.css';
+body {
+  -webkit-font-smoothing: antialiased;
+}
+* {
+  margin: 0;
+}
+html.body {
+  height: 100%;
+}
+img{
+  max-width: 100%;
+}
+#ice-container {
+  /* background-image: url(./assets/bg.png);
+   */
+  min-height: 100%;
+  background: #f1f0ef;
+  background-image: radial-gradient(ellipse farthest-corner at 50% 0, #a39990 0%, #786f69 100%);
+  color: #363132;
+  padding-bottom: 50px;
+  position: relative;
+}
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.page-x {
+  background-color: #d1c4af;
+  box-shadow: 0px 0px 10px 2px rgb(88 83 86 / 30%);
+  min-height: 100%;
+  position: relative;
+  z-index: 1;
+}
+.title-x {
+  padding: 1em 80px 0 80px;
+  font-size: 2.2rem;
+  text-shadow: 1.5px 1.5px #d1c4af, 3px 3px #a39990;
+  border-top: 3px dashed #786f69;
+  color: #786f69;
+}
+.item-x {
+  border-top: 1px dashed #585356;
+  position: relative;
+  flex: 1;
+}
+.content-x {
+  padding: 50px 80px;
+}
+.post-title {
+  font-size: 1.8rem;
+  font-family: Lato, 'Microsoft YaHei', sans-serif;
+  font-weight: 900;
+  margin: 0.5em 0;
+  color: #786f69;
+}
+.post-title a {
+  color: #585356;
+  font-weight: bold;
+  text-decoration: none;
+  word-wrap: break-word;
+  transition-duration: 0.5s;
+}
+
+.post-title a:hover {
+  color: #d1c4af;
+  background-color: #786f69;
+}
+
+.item-x p {
+  font-family: Lato, 'Microsoft YaHei', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8em;
+  margin: 1em 0;
+  color: #504a4b;
+  text-indent: 2em;
+}
+
+.pageBack {
+  background-color: #d1c4af;
+  margin-top: 5em;
+  box-shadow: 0px 0px 10px 2px rgb(88 83 86 / 30%);
+  min-height: 200px;
+  width: 100%;
+  height: 200px;
+  position: relative;
+}
+
+.pageBack.rotBottom.rotRight {
+  margin-top: -200px;
+  margin-bottom: 100px;
+  left: 10px;
+}
+
+.pageBack.rotRight {
+  transform: rotate(-5deg);
+}
+
+.pageBack.rotBottom.rotLeft {
+  margin-top: -150px;
+  left: -10px;
+}
+
+.pageBack.rotLeft {
+  transform: rotate(5deg);
+}
+
+.ar-title {
+  font-family: Lato, 'Microsoft YaHei', sans-serif;
+  font-size: 2.8rem;
+  font-weight: 900;
+  margin: 0.5em 0 0.25em 0;
+  text-shadow: 1.5px 1.5px #d1c4af, 3px 3px #a39990;
+  border-bottom-style: double;
+  border-bottom-color: #a39990;
+  border-bottom-width: 8px;
+  padding-bottom: 0.2em;
+  color: #585356;
+}
+.medium-zoom-overlay{
+  z-index: 1;
+}
+.medium-zoom-image--opened{
+  z-index: 1;
+}

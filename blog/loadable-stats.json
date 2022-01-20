@@ -1,0 +1,159 @@
+{
+  "name": "web",
+  "hash": "c322f4e8e76f9a716b78",
+  "publicPath": "/",
+  "outputPath": "/Users/generation/Desktop/myProject/blog-web/blog",
+  "assetsByChunkName": {
+    "index": [
+      "css/index.css",
+      "js/index.js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "asset",
+      "name": "js/index.js",
+      "size": 7729677,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false,
+        "related": {
+          "sourceMap": "js/index.js.map"
+        }
+      },
+      "chunkNames": [
+        "index"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 1,
+      "chunks": [
+        "index"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "css/index.css",
+      "size": 703584,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "related": {
+          "sourceMap": "css/index.css.map"
+        }
+      },
+      "chunkNames": [
+        "index"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 1,
+      "chunks": [
+        "index"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "js/vendors-node_modules_medium-zoom_dist_medium-zoom_esm_js.js",
+      "size": 20448,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false,
+        "related": {
+          "sourceMap": "js/vendors-node_modules_medium-zoom_dist_medium-zoom_esm_js.js.map"
+        }
+      },
+      "chunkNames": [],
+      "chunkIdHints": [
+        "vendors"
+      ],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 1,
+      "chunks": [
+        "vendors-node_modules_medium-zoom_dist_medium-zoom_esm_js"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "favicon.png",
+      "size": 4943,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "copied": true,
+        "sourceFilename": "public/favicon.png"
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "index.html",
+      "size": 297,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {},
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": []
+    }
+  ],
+  "namedChunkGroups": {
+    "index": {
+      "name": "index",
+      "chunks": [
+        "index"
+      ],
+      "assets": [
+        {
+          "name": "css/index.css"
+        },
+        {
+          "name": "js/index.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 2,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "generator": "loadable-components",
+  "chunks": [
+    {
+      "id": "index",
+      "files": [
+        "css/index.css",
+        "js/index.js"
+      ]
+    },
+    {
+      "id": "vendors-node_modules_medium-zoom_dist_medium-zoom_esm_js",
+      "files": [
+        "js/vendors-node_modules_medium-zoom_dist_medium-zoom_esm_js.js"
+      ]
+    }
+  ]
+}

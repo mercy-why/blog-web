@@ -1,0 +1,38 @@
+{
+  "name": "@alifd/scaffold-simple",
+  "version": "0.1.0",
+  "description": "使用 TypeScript，未使用任何 UI 库。",
+  "dependencies": {
+    "@bytemd/plugin-gfm": "^1.10.13",
+    "@bytemd/plugin-highlight-ssr": "^1.10.13",
+    "@bytemd/plugin-medium-zoom": "^1.10.13",
+    "@bytemd/react": "^1.10.13",
+    "antd": "^4.18.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@iceworks/spec": "^1.0.0",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.2",
+    "build-plugin-ignore-style": "^0.1.1",
+    "eslint": "^7.30.0",
+    "ice.js": "^2.5.1",
+    "stylelint": "^13.7.2",
+    "vite-plugin-ssr": "^0.3.46"
+  },
+  "scripts": {
+    "start": "icejs start --mode local",
+    "build": "icejs build --mode prod",
+    "lint": "npm run eslint && npm run stylelint",
+    "eslint": "eslint --cache --ext .js,.jsx,.ts,.tsx ./",
+    "eslint:fix": "npm run eslint -- --fix",
+    "stylelint": "stylelint \"**/*.{css,scss,less}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ice-lab/react-materials/tree/master/scaffolds/simple"
+  },
+  "private": true,
+  "originTemplate": "@alifd/scaffold-simple"
+}
