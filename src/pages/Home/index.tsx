@@ -1,4 +1,4 @@
-import { Link, useParams, useRequest } from 'ice';
+import { useParams, useRequest } from 'ice';
 import { getBlogList } from '@/services';
 import { List } from 'antd';
 import { useEffect } from 'react';
@@ -10,7 +10,7 @@ interface tableItem {
 }
 const Home = () => {
   const { account } = useParams<{ account: string }>();
-  const { data: list, request, loading } = useRequest(getBlogList);
+  const { data: list, request } = useRequest(getBlogList);
   useEffect(() => {
     if (account) {
       request({ account });
@@ -30,7 +30,9 @@ const Home = () => {
               <List.Item>
                 <div className="item-x">
                   <h2 className="post-title">
-                    <Link to={`/article/${item.id}`}>{item.title}</Link>
+                    <a href={`/article/${item.id}`} target="_blank" rel="noreferrer">
+                      {item.title}
+                    </a>
                   </h2>
                   <p>{item.description}</p>
                 </div>
